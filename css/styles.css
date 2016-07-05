@@ -1,0 +1,346 @@
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans";
+  margin-top: 1em;
+}
+
+
+.line {
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.column-1 {
+    width: 8.33%;
+}
+
+
+.column-2 {
+    width: 16.66%;
+}
+
+
+.column-3 {
+    width: 25%;
+}
+
+
+.column-4 {
+    width: 33.33%;
+}
+
+
+.column-5 {
+    width: 41.66%;
+}
+
+
+.column-6 {
+    width: 50%;
+}
+
+
+.column-7 {
+    width: 58.33%;
+}
+
+
+.column-8 {
+    width: 66.66%;
+}
+
+
+.column-9 {
+    width: 75%;
+}
+
+
+.column-10 {
+    width: 83.33%;
+}
+
+
+.column-11 {
+    width: 91.66%;
+}
+
+
+.column-12 {
+    width: 100%;
+    min-width: 100%;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 1em 0;
+}
+
+
+a {
+  color: #e5aa00;
+}
+
+
+a:hover {
+  color: #dcdcdc;
+}
+
+
+h4 {
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+
+/* Header */
+header {
+  border-bottom: 2px dotted gray;
+  margin-bottom: 0.5em;
+}
+
+
+.logo {
+  width: 10em;
+  min-width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#logo-img {
+  width: 60%;
+}
+
+
+.branding {
+  font-family: 'Special Elite', cursive;
+}
+
+
+.brand {
+  font-size: 3em;
+}
+
+
+.slogan {
+  font-size: 1.5em;
+}
+
+
+.linkable {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.linkable:hover {
+  text-decoration: none;
+  color: #e5aa00;
+}
+
+
+.linkable:enabled {
+  text-decoration: none;
+}
+
+
+/* Feratured work section */
+.featured {
+  padding-left: 1em;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+
+h3 {
+  font-size: 1.5em;
+  margin: 0.25em;
+}
+
+
+.project-area {
+  background-color: #081d43;
+  border-radius: 0 2em;
+  padding-top: 1em;
+  color: white;
+}
+
+
+.project {
+    margin-bottom: 1.5em;
+}
+
+
+.project-img {
+  width: 70%;
+  border-radius: 220px;
+  margin-top: 2em;
+}
+
+
+.toggle-content {
+  margin: 5px;
+  font-weight: bold;
+}
+
+
+/* Footer */
+footer p, form {
+  font-size: 0.75em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* TEST */
+.social-media {
+  order: 1;
+}
+
+
+.footer-txt {
+  order: 2;
+}
+
+.subscribe {
+  order: 3;
+}
+
+
+/* Social media icons */
+[class*="zocial-"]:before {
+  /*color: black;*/
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+  font-size: 1.5em;
+}
+
+
+li {
+    display: inherit;
+}
+
+
+.zocial-twitter {
+  color: #55acee;
+}
+
+
+.zocial-facebook {
+  color: #3b5998;
+}
+
+
+.zocial-googleplus {
+  color: #ea4335;
+}
+
+
+.zocial-instagram {
+  color: #5851db;
+}
+
+
+/* Media Queries */
+@media all and (min-width: 500px) {
+  .project-img {
+    width: 80%;
+  }
+}
+
+
+@media all and (min-width: 600px) {
+  .project {
+    width: 50%;
+    min-width: 50%;
+  }
+
+
+  .project-img {
+    width: 90%;
+  }
+
+
+  .project-area {
+    text-align: center;
+  }
+}
+
+
+@media all and (min-width: 900px) {
+  .project {
+    width: 33%;
+    min-width: 33%;
+  }
+
+
+  .project-img {
+    width: 85%;
+  }
+
+
+  .branding {
+    min-width: 50%;
+    width: 50%;
+    text-align: right;
+    margin: auto 0 0 auto;
+  }
+
+
+  .logo {
+    margin: 0.5em 0;
+    text-align: left;
+  }
+
+
+  .footer-txt, .subscribe, .social-media {
+    width: 50%;
+    min-width: 50%;
+  }
+
+
+  .footer-txt {
+    order: 1;
+    text-align: left;
+    margin: 0;
+  }
+
+  footer p {
+    text-align: left;
+    padding-left: 2em;
+  }
+
+
+  .subscribe {
+    order: 2;
+  }
+
+
+  form {
+    text-align: right;
+    margin: 0;
+  }
+
+
+  .social-media {
+    order: 3;
+  }
+
+
+  ul {
+    text-align: left;
+    padding-right: 1em;
+    margin: 0;
+  }
+}
