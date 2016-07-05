@@ -200,8 +200,6 @@ footer p, form {
 }
 
 
-
-/* TEST */
 .social-media {
   order: 1;
 }
@@ -218,7 +216,6 @@ footer p, form {
 
 /* Social media icons */
 [class*="zocial-"]:before {
-  /*color: black;*/
   display: inline-block;
   font-family: 'zocial', sans-serif;
   text-shadow: 3px 3px 3px #aaa;
