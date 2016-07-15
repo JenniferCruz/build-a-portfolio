@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <!-- Project attempted with own grid layout mainly -->
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Jennifer's portfolio</title>
 
     <!-- Include bootstrap and javascript files for modals -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script type="text/javascript" src="js/jquery-2.2.4.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-2.2.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Special+Elite|Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Special+Elite|Open+Sans' rel='stylesheet'>
     <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+
   </head>
   <body>
 
@@ -22,7 +23,7 @@
       <header>
         <div class="line">
           <div class="column-12 logo">
-            <img src="img/logo.png" alt="" id="logo-img"/>
+            <img src="img/logo.png" alt="J monotype" id="logo-img"/>
           </div>
           <div class="column-12 branding">
             <h1 class="brand">Jennifer</h1>
@@ -36,7 +37,7 @@
       <div class="column-12">
         <picture>
           <source media="(min-width: 1000px)" srcset="img/lar/featured-large-2x.jpg 2x, img/lar/featured-large-1x.jpg"/>
-          <source media="(max-width: 500px)" srcset="img/sma/featured-sma.jpg 450w"/>
+          <source media="(max-width: 500px)" srcset="img/sma/featured-sma.jpg"/>
           <img src="img/med/featured-med.jpg" alt="Thorns" class="featured-img"/>
         </picture>
       </div>
@@ -47,60 +48,60 @@
         <h3>Featured work</h3>
       </div>
       <div class="line">
-        <div class="project column-12">
+        <div id="project-1" class="project column-12">
           <picture>
             <source media="(min-width: 1000px)" srcset="img/lar/project-1-large-2x.jpg 2x, img/lar/project-1-large-1x.jpg"/>
-            <source media="(max-width: 400px)" srcset="img/sma/project-1-sma.jpg 450w"/>
+            <source media="(max-width: 400px)" srcset="img/sma/project-1-sma.jpg"/>
             <img src="img/med/project-1-med.jpg" alt="Dried roots in clayey desert" class="project-img" data-toggle="modal" data-target="#project1"/>
           </picture>
           <h4>Dried Roots</h4>
           <a href="#">www.driedrootexample.com</a>
         </div>
 
-        <div class="project column-12">
+        <div id="project-2" class="project column-12">
           <picture>
             <source media="(min-width: 1000px)" srcset="img/lar/project-2-large-2x.jpg 2x, img/lar/project-2-large-1x.jpg"/>
-            <source media="(max-width: 400px)" srcset="img/sma/project-2-sma.jpg 450w"/>
+            <source media="(max-width: 400px)" srcset="img/sma/project-2-sma.jpg"/>
             <img src="img/med/project-2-med.jpg" alt="Fingers holding bird-shaped earring" class="project-img test-img" data-toggle="modal" data-target="#project2"/>
           </picture>
           <h4>Clay Jewelry</h4>
           <a href="#">www.clayexample.com</a>
         </div>
 
-        <div class="project column-12">
+        <div id="project-3" class="project column-12">
           <picture>
             <source media="(min-width: 1000px)" srcset="img/lar/project-3-large-2x.jpg 2x, img/lar/project-3-large-1x.jpg"/>
-            <source media="(max-width: 400px)" srcset="img/sma/project-3-sma.jpg 450w"/>
+            <source media="(max-width: 400px)" srcset="img/sma/project-3-sma.jpg"/>
             <img src="img/med/project-3-med.jpg" alt="Door framework in the beach" class="project-img" data-toggle="modal" data-target="#project3"/>
           </picture>
           <h4>Door to beach</h4>
           <a href="#">www.examplebeach.com</a>
         </div>
 
-        <div class="project column-12">
+        <div id="project-4" class="project column-12">
           <picture>
             <source media="(min-width: 1000px)" srcset="img/lar/project-4-large-2x.jpg 2x, img/lar/project-4-large-1x.jpg"/>
-            <source media="(max-width: 400px)" srcset="img/sma/project-4-sma.jpg 450w"/>
+            <source media="(max-width: 400px)" srcset="img/sma/project-4-sma.jpg"/>
             <img src="img/med/project-4-med.jpg" alt="Yellow bug in the sand" class="project-img" data-toggle="modal" data-target="#project4"/>
           </picture>
           <h4>Sand bug</h4>
           <a href="#">www.bugexample.com</a>
         </div>
 
-        <div class="project column-12">
+        <div id="project-5" class="project column-12">
           <picture>
             <source media="(min-width: 1000px)" srcset="img/lar/project-5-large-2x.jpg 2x, img/lar/project-5-large-1x.jpg"/>
-            <source media="(max-width: 400px)" srcset="img/sma/project-5-sma.jpg 450w"/>
+            <source media="(max-width: 400px)" srcset="img/sma/project-5-sma.jpg"/>
             <img src="img/med/project-5-med.jpg" alt="Young man on rocks formation" class="project-img" data-toggle="modal" data-target="#project5"/>
           </picture>
           <h4>Rock the rocks</h4>
           <a href="#">www.examplerock.com</a>
         </div>
 
-        <div class="project column-12">
+        <div id="project-6" class="project column-12">
           <picture>
             <source media="(min-width: 1000px)" srcset="img/lar/project-6-large-2x.jpg 2x, img/lar/project-6-large-1x.jpg"/>
-            <source media="(max-width: 400px)" srcset="img/sma/project-6-sma.jpg 450w"/>
+            <source media="(max-width: 400px)" srcset="img/sma/project-6-sma.jpg"/>
             <img src="img/med/project-6-med.jpg" alt="Ants carrying leaves" class="project-img" data-toggle="modal" data-target="#project6"/>
           </picture>
           <h4>Hard work</h4>
@@ -123,10 +124,10 @@
       </div>
       <div class="column-12 social-media">
         <ul id=social>
-          <a href="#"><li class="zocial-twitter"></li></a>
-          <a href="#"><li class="zocial-facebook"></li></a>
-          <a href="#"><li class="zocial-googleplus"></li></a>
-          <a href="#"><li class="zocial-instagram"></li></a>
+          <li><a href="#" class="zocial-twitter"></a></li>
+          <li><a href="#" class="zocial-facebook"></a></li>
+          <li><a href="#" class="zocial-googleplus"></a></li>
+          <li><a href="#" class="zocial-instagram"></a></li>
         </ul>
       </div>
     </footer>
@@ -134,7 +135,7 @@
 
   <!-- Modals -->
   <!-- Project 1 -->
-  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project-1" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -158,7 +159,7 @@
     </div>
   </div>
   <!-- Project 2 -->
-  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project-2" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -177,7 +178,7 @@
     </div>
   </div>
   <!-- Project 3 -->
-  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project-3" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -201,7 +202,7 @@
     </div>
   </div>
   <!-- Project 4 -->
-  <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="project-4" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -220,7 +221,7 @@
     </div>
   </div>
   <!-- Project 5 -->
-  <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="project-5" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -242,7 +243,7 @@
     </div>
   </div>
   <!-- Project 6 -->
-  <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="project-6" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
