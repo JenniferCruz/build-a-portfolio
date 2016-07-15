@@ -1,0 +1,342 @@
+/*** uncss> filename: css/bootstrap.min.css ***/
+/*!
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*!
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=a22e69bcb8a666dac6d665f78b5923b0)
+ * Config saved to config.json and https://gist.github.com/a22e69bcb8a666dac6d665f78b5923b0
+ *//*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+button,h1,h2,h3,h4,input{color:inherit;font-family:inherit}.modal,.modal-backdrop{top:0;right:0;bottom:0;left:0}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}footer,header,section{display:block}a{background-color:transparent;color:#337ab7;text-decoration:none}.modal-content,body{background-color:#fff}a:active,a:hover{outline:0}h1{margin:.67em 0}h1,h2,h3,h4,ul{margin-bottom:10px}img{border:0;vertical-align:middle}button,input{color:inherit;font:inherit;margin:0}button{overflow:visible;text-transform:none;-webkit-appearance:button;cursor:pointer}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:transparent}body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333}button,input{font-size:inherit;line-height:inherit}a:focus,a:hover{color:#23527c;text-decoration:underline}a:focus{outline:dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}h1,h2,h3,h4{font-weight:500;line-height:1.1}h1,h2,h3{margin-top:20px}h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{margin-top:10px;font-size:18px}p{margin:0 0 10px}ul{margin-top:0}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.modal{display:none;overflow:hidden;position:fixed;z-index:1050;-webkit-overflow-scrolling:touch;outline:0}.modal.fade .modal-dialog{-webkit-transform:translate(0,-25%);-ms-transform:translate(0,-25%);-o-transform:translate(0,-25%);transform:translate(0,-25%);-webkit-transition:-webkit-transform .3s ease-out;-o-transition:-o-transform .3s ease-out;transition:transform .3s ease-out}.modal-dialog{position:relative;width:auto;margin:10px}.modal-content{position:relative;border:1px solid #999;border:1px solid rgba(0,0,0,.2);border-radius:6px;-webkit-box-shadow:0 3px 9px rgba(0,0,0,.5);box-shadow:0 3px 9px rgba(0,0,0,.5);-webkit-background-clip:padding-box;background-clip:padding-box;outline:0}.modal-header{padding:15px;border-bottom:1px solid #e5e5e5}.modal-title{margin:0;line-height:1.42857143}.modal-body{position:relative;padding:15px}.modal-footer{padding:15px;text-align:right;border-top:1px solid #e5e5e5}@media (min-width:768px){.modal-dialog{width:600px;margin:30px auto}.modal-content{-webkit-box-shadow:0 5px 15px rgba(0,0,0,.5);box-shadow:0 5px 15px rgba(0,0,0,.5)}.modal-sm{width:300px}}.container:after,.container:before,.modal-footer:after,.modal-footer:before,.modal-header:after,.modal-header:before{content:" ";display:table}.container:after,.modal-footer:after,.modal-header:after{clear:both}.modal-open{overflow:hidden}.modal.in .modal-dialog{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);-o-transform:translate(0,0);transform:translate(0,0)}.modal-open .modal{overflow-x:hidden;overflow-y:auto}.modal-backdrop{position:fixed;z-index:1040;background-color:#000}.modal-backdrop.fade{opacity:0;filter:alpha(opacity=0)}.modal-backdrop.in{opacity:.5;filter:alpha(opacity=50)}.modal-header .close{margin-top:-2px}.modal-footer .btn+.btn{margin-left:5px;margin-bottom:0}.modal-footer .btn-group .btn+.btn{margin-left:-1px}.modal-footer .btn-block+.btn-block{margin-left:0}.modal-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}@media (min-width:992px){.modal-lg{width:900px}}
+
+
+/*** uncss> filename: css/styles.css ***/
+body {
+  font-size: 16px;
+  font-family: "Open Sans";
+  margin-top: 1em;
+}
+
+
+.line {
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.column-12 {
+    width: 100%;
+    min-width: 100%;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 1em 0;
+}
+
+
+a {
+  color: #e5aa00;
+}
+
+
+a:hover {
+  color: #dcdcdc;
+}
+
+
+h4 {
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+
+/* Header */
+header {
+  border-bottom: 2px dotted gray;
+  margin-bottom: 0.5em;
+}
+
+
+.logo {
+  width: 10em;
+  min-width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#logo-img {
+  width: 60%;
+}
+
+
+.branding {
+  font-family: "Special Elite", cursive;
+}
+
+
+.brand {
+  font-size: 3em;
+}
+
+
+.slogan {
+  font-size: 1.5em;
+}
+
+
+.linkable {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.linkable:hover {
+  text-decoration: none;
+  color: #e5aa00;
+}
+
+
+.linkable:enabled {
+  text-decoration: none;
+}
+
+
+/* Feratured work section */
+.featured {
+  padding-left: 1em;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+
+h3 {
+  font-size: 1.5em;
+  margin: 0.25em;
+}
+
+
+.project-area {
+  background-color: #081d43;
+  border-radius: 0 2em;
+  padding-top: 1em;
+  color: white;
+}
+
+
+.project {
+    margin-bottom: 1.5em;
+}
+
+
+.project-img {
+  width: 70%;
+  border-radius: 220px;
+  margin-top: 2em;
+}
+
+
+.toggle-content {
+  margin: 5px;
+  font-weight: bold;
+}
+
+
+/* Footer */
+footer p,
+form {
+  font-size: 0.75em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.social-media {
+  order: 1;
+}
+
+
+.footer-txt {
+  order: 2;
+}
+
+.subscribe {
+  order: 3;
+}
+
+
+/* Social media icons */
+[class*="zocial-"]:before {
+  font-family: "zocial", sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+  font-size: 1.5em;
+}
+
+
+li {
+  display: initial;
+  padding: 0 10px;
+}
+
+.social-media a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+.zocial-twitter {
+  color: #55acee;
+}
+
+
+.zocial-facebook {
+  color: #3b5998;
+}
+
+
+.zocial-googleplus {
+  color: #ea4335;
+}
+
+
+.zocial-instagram {
+  color: #5851db;
+}
+
+
+/* Media Queries */
+@media all and (min-width: 500px) {
+  .project-img {
+    width: 80%;
+  }
+}
+
+
+@media all and (min-width: 600px) {
+  .project {
+    width: 50%;
+    min-width: 50%;
+  }
+
+
+  .project-img {
+    width: 90%;
+  }
+
+
+  .project-area {
+    text-align: center;
+  }
+}
+
+
+@media all and (min-width: 900px) {
+  .project {
+    width: 33%;
+    min-width: 33%;
+  }
+
+
+  .project-img {
+    width: 85%;
+  }
+
+
+  .branding {
+    min-width: 50%;
+    width: 50%;
+    text-align: right;
+    margin: auto 0 0 auto;
+  }
+
+
+  .logo {
+    margin: 0.5em 0;
+    text-align: left;
+  }
+
+
+  .footer-txt,
+  .subscribe,
+  .social-media {
+    width: 50%;
+    min-width: 50%;
+  }
+
+
+  .footer-txt {
+    order: 1;
+    text-align: left;
+    margin: 0;
+  }
+
+  footer p {
+    text-align: left;
+    padding-left: 2em;
+  }
+
+
+  .subscribe {
+    order: 2;
+  }
+
+
+  form {
+    text-align: right;
+    margin: 0;
+  }
+
+
+  .social-media {
+    order: 3;
+  }
+
+
+  ul {
+    text-align: left;
+    padding-right: 1em;
+    margin: 0;
+  }
+}
+
+/*** uncss> filename: https://fonts.googleapis.com/css?family=Special+Elite|Open+Sans ***/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Special Elite'), local('SpecialElite-Regular'), url(https://fonts.gstatic.com/s/specialelite/v6/9-wW4zu3WNoD5Fjka35JmybsRidxnYrfzLNRqJkHfFo.ttf) format('truetype');
+}
+
+/*** uncss> filename: http://weloveiconfonts.com/api/?family=zocial ***/
+@charset "UTF-8";
+@font-face {
+  font-family: 'zocial';
+  font-style: normal;
+  font-weight: normal;
+  src: url('http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.eot');
+  src: url('http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.eot?#iefix') format('eot'),
+  url('http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.woff') format('woff'),
+  url('http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.ttf') format('truetype'),
+  url('http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.svg#zocialregular') format('svg');
+}.zocial-facebook:before{content:"f"}.zocial-googleplus:before{content:"+"}.zocial-instagram:before{content:"\00DC"}.zocial-twitter:before{content:"T"}
