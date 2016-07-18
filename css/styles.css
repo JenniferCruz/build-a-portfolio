@@ -161,17 +161,18 @@ form {
 
 
 /* Social media icons */
-[class*="zocial-"]:before {
-  font-family: "zocial", sans-serif;
-  text-shadow: 3px 3px 3px #aaa;
-  width: 2em;
-  font-size: 1.5em;
+img.zocial {
+  /*font-family: "zocial", sans-serif;*/
+  /*text-shadow: 3px 3px 3px #aaa;*/
+  /*width: 2em;*/
+  /*font-size: 1.5em;*/
+  width: 40px;
 }
 
 
 li {
   display: initial;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .social-media a:hover {
